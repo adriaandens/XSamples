@@ -3,7 +3,6 @@ MANIFEST
 
 EXCESS.h
 ppport.h
-Hashes.xs
 XSamples.xs
 
 lib/XSamples.pm
