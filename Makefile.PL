@@ -6,5 +6,10 @@ WriteMakefile(
 
 	DEFINE         => '',
 	INC            => '-I.',
-	OBJECT         => '$(O_FILES)',
+	XSPROTOARG     => '-noprototypes',
+	OBJECT         => 'XSamples.o Hashes.o',
+	XS             => {
+		'XSamples.xs' => 'XSamples.c',
+		'Hashes.xs' => 'Hashes.c'
+	},
 );
