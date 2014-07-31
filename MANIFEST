@@ -1,0 +1,17 @@
+Makefile.PL
+MANIFEST
+
+EXCESS.h
+ppport.h
+Hashes.xs
+XSamples.xs
+
+lib/XSamples.pm
+lib/XSamples/Args.pm
+lib/XSamples/Arrays.pm
+lib/XSamples/Hashes.pm
+lib/XSamples/Return.pm
+lib/XSamples/Scalars.pm
+
+t/00_XSamples.t
+t/03_Hashes.t
