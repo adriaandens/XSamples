@@ -26,19 +26,19 @@ MODULE = XSamples       PACKAGE = XSamples::Hashes
 MODULE = XSamples       PACKAGE = XSamples
 
 # And back to functions for XSamples
-```perl
+```
 
 In XSamples.pm we call our XS file. (Shortened for brevity) 
-```
+```perl
 package XSamples;                                                                                 
 use XSLoader;
 XSLoader::load(__PACKAGE__, '0.1');
 
 1;
-```perl
+```
 
 And in Hashes.pm, we just have the basic package stub:
-```
+```perl
 package XSamples::Hashes;
 use Exporter qw(import);
 
@@ -48,10 +48,10 @@ our @EXPORT = qw(subr1 subr2); # Subroutines to export
 # subr1(), subr2() are defined in our XS file.
 
 1;
-```perl 
+```
 
 The only downside of this method is that we have to _use_ the XSamples module in order to load the functions of XSamples::Hashes.
-```
+```perl
 use XSamples;
 use XSamples::Hashes;
 
