@@ -1,5 +1,6 @@
 Makefile.PL
 MANIFEST
+MANIFEST.SKIP
 
 EXCESS.h
 ppport.h

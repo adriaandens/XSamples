@@ -1,1 +1,3 @@
-weird_stuff/*
+weird_stuff/
+.git/
+.DS_STORE
