@@ -1,9 +1,10 @@
 use strict;
 use warnings;
 use Test::More;
+use XSamples;
 use XSamples::Hashes;
 
-my $hashref = create_and_store_key_value_in_hash("I'm the key", "And I'm the value!");
+my $hashref = XSamples::Hashes::create_and_store_key_value_in_hash("I'm the key", "And I'm the value!");
 my @keys_hashref = keys %$hashref;
 
 cmp_ok(scalar(@keys_hashref), '==', 1, 'One key found. OK!');
