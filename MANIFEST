@@ -14,3 +14,5 @@ lib/XSamples/Scalars.pm
 
 t/00_XSamples.t
 t/03_Hashes.t
+
+docs/README.md
