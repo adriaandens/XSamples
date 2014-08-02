@@ -1,0 +1,10 @@
+lib/Module.pm
+logging_refs.txt
+Makefile.PL
+Module.xs
+Perl_ftn.c
+Perl_ftn.h
+ppport.h
+print_scalar.txt
+t/00_Module.t
+MANIFEST

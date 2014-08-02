@@ -1,0 +1,90 @@
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
+Refcount 1 (entering sub called from Perl): 1
+Refcount 2 (increment just before call which uses the SV*): 2
+Refcount 3 (inside the callee): 2
+Refcount 4 (inside the callee, after dec): 1
+Refcount 5 (after calling the function): 1
+Refcount 6 (refcount of a): 1
+Refcount 7 (increment a): 2
+Refcount 8 (arg has also incremented): 2
+-----------
