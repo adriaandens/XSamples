@@ -2,5 +2,5 @@ MODULE = Module		PACKAGE = Module::Submodule
 
 SV* another_function(SV* arg)
 	CODE:
-		RETVAL = arg;
+		RETVAL = SvREFCNT_inc(arg);
 	OUTPUT: RETVAL

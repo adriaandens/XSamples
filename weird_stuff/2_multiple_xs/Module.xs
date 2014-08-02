@@ -9,7 +9,7 @@ MODULE = Module		PACKAGE = Module
 
 SV* just_a_function(SV* arg)
 	CODE:
-		RETVAL = arg;
+		RETVAL = SvREFCNT_inc(arg);
 	OUTPUT: RETVAL
 
 INCLUDE: Second.xsh
