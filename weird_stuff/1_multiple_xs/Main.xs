@@ -4,5 +4,5 @@ MODULE = Module1	PACKAGE = Module1
 
 SV* just_a_function(SV* arg)
 	CODE:
-		RETVAL = arg;
+		RETVAL = SvREFCNT_inc(arg);
 	OUTPUT: RETVAL
